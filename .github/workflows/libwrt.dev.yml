@@ -270,7 +270,7 @@ jobs:
         id: downloadArtifact
         if: ${{ needs.build.result }} == 'success' && !cancelled()
         with:
-          name: Libwrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+          name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
           path: ${{ env.PACK_DOWNLOAD_TARGET_PATH }}
 
       - name: Package OpenWrt Firmware
