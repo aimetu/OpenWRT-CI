@@ -9,7 +9,7 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 
-name: Build Arm64v8 OpenWrt
+name: libwrt.dev
 
 on:
   repository_dispatch:
